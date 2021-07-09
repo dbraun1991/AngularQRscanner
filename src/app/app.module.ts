@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { QrscanComponent } from './qrscan/qrscan.component';
+import { ZXingScannerModule } from '@zxing/ngx-scanner';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { QrscanComponent } from './qrscan/qrscan.component';
     QrscanComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ZXingScannerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
