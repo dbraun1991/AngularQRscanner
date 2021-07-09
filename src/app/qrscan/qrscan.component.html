@@ -1,1 +1,16 @@
-<p>qrscan works!</p>
+
+<div class="kt-portlet__body">
+    <zxing-scanner *ngIf="scannerEnabled" #qrscanner (scanSuccess)="scanSuccessHandler($event)">
+    </zxing-scanner>
+    <button (click)="enableScanner()" *ngIf="!scannerEnabled" type="button" class="btn btn-success">read another</button>
+</div>
+
+<div class="kt-callout__content">
+    <a class="title">Information des QR-Codes:   </a>
+    <p></p>
+    <a class="content">
+        {{information}}
+    </a>
+    <p></p>
+
+</div>
