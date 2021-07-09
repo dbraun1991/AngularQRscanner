@@ -1,6 +1,6 @@
-# AngularQRscanner
+# This is an QR-Code scanner using Angular 12.x
 
-SPA for scanning QR Codes right from the web. The NPM package @zxing/ngx-scanner (Plus: @zxing/browser + @zxing/library) is used.
+SPA for scanning QR Codes right from the web. The NPM package @zxing/ngx-scanner (Incl.: @zxing/browser + @zxing/library) is used.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
 
 
@@ -22,3 +22,8 @@ Navigate to `http://localhost:4200/` to reach teh dev-server. The app will autom
 ng build
 ```
 The build artifacts will be stored in the `dist/` directory.
+
+
+
+Works on mobile (localhost) as well   ;-)
+
